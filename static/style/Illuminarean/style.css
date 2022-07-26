@@ -1,0 +1,150 @@
+@charset 'utf-8';
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+/* body */
+body {
+    background-color: #fff;
+}
+
+/* display / width / height / padding / background-color / font-size / color / font-weight / text-align / line-height(%) / vertical-align */
+
+/* reset */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video{
+    margin:0;
+    padding:0;
+    background:transparent;
+    border:0;
+    font-size:14px;
+    color:#1a1a1a;
+    font-weight:400;
+    letter-spacing:-0.5px;
+    vertical-align:baseline;
+    box-sizing:border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    width: 680px;
+    background-color: #fff;
+}
+
+.mail_wrap {
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+.mail {
+    width: 640px;
+    margin: 0 auto;
+}
+.header {
+    margin: 0 0 0 30px;
+}
+img {
+    width: 111px;
+    height: 24px;
+}
+.content {
+    background-color: #fff;
+    margin: 24px auto 0 auto;
+    width: 552px;
+}
+.content_detail {
+    width: 95%;
+    height: 100%;
+    background-color: #fff;
+}
+.content .text {
+    font-family: "NanumSquare", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #363636;
+    line-height: 25px;
+    margin: 0 0 20px 0;
+    letter-spacing: -0.08px;
+}
+.content span {
+    font-weight: 600;
+    font-size: 15px;
+    color: #7AB6FF;
+    line-height: 25px;
+}
+.content a {
+    font-weight: 600;
+    font-size: 15px;
+    color: #7AB6FF;
+    line-height: 25px;
+}
+h1 {
+    font-family: "NanumSquare", sans-serif;
+    font-weight: 800;
+    margin: 0 0 37px 0;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.03px;
+}
+h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+a {
+    text-decoration-line: none;
+}
+
+.button_area .btn_link {
+    display: inline-block;
+    background-color: #67acff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #fff;
+    padding: 13px 0;
+    text-align: center;
+    cursor: pointer;
+    width: 178px;
+    margin: 20px 0;
+    letter-spacing: -0.06px;
+}
+
+.content .text_link {
+    font-size: 16px;
+    font-weight: 400;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.content .description {
+    padding: 30px 30px 83px;
+    font-size: 15px;
+    color: #000;
+    line-height: 22px;
+}
+
+.footer {
+    background: rgba(228, 236, 247, 0.2);
+    width: 680px;
+}
+.footer_content {
+    margin: 0 0 0 30px;
+    border: 0.1px solid rgba(228, 236, 247, 0.2);
+    width: 80%;
+}
+.footer_text {
+    font-family: "NanumSquare", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -1px;
+    color: #888888;
+    margin: 25px 0 9px 0;
+}
+.footer .copyRight {
+    font-family: "NanumSquare", sans-serif;
+    color: #888888;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 0 25px 0;
+}
